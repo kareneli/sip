@@ -1,0 +1,85 @@
+body {
+    background: cadetblue;
+}
+
+.nav-app {
+    margin-top: 25px;
+    /*background: rgba(255,255,255,1);
+background: -moz-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(39,230,67,0.8) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,255,255,1)), color-stop(100%, rgba(39,230,67,0.8)));
+background: -webkit-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(39,230,67,0.8) 100%);
+background: -o-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(39,230,67,0.8) 100%);
+background: -ms-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(39,230,67,0.8) 100%);
+background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(39,230,67,0.8) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#27e643', GradientType=1 );*/
+}
+
+.about {
+    float: right;
+    margin: 30px 10px;
+}
+
+.bar-login {
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+.title-bar {
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 25px;
+    position: absolute;
+    left: 28%;
+    top: 22px;
+}
+
+.list-item {
+    text-transform: capitalize;
+    padding: 15px;
+    vertical-align: middle;
+    line-height: 50px;
+    /*background: gray;*/
+}
+
+.icon-login {
+    font-size: 40px;
+    line-height: 20px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color: #419641;
+}
+
+.icon-login img {
+    width: 15%;
+}
+
+.login-div {
+    background: white;
+    border: 1px solid gray;
+    border-radius: 15px;
+    -webkit-box-shadow: 7px 7px 15px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    7px 7px 15px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         7px 7px 15px 0px rgba(50, 50, 50, 0.75);
+}
+
+.login-title {
+    text-transform: capitalize;
+    text-align: center;
+    padding: 10px;
+    font-weight: 400;
+}
+
+.login-box-fields {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+}
+
+.login-box-fields input {
+    margin-bottom: 15px;
+}
+
+button.login-btn {
+    width: 100%;
+}
